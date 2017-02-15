@@ -3,3 +3,5 @@
 ################################################################################
 
 /src/Solidity.Contracts/bin/Debug/netstandard1.6
+/src/Solidity.Contracts/obj/Debug/netstandard1.6
+/.vs

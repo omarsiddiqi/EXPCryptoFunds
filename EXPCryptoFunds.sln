@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Web", "src\Web\Web.xproj", "{10A991E8-A09F-4DF0-86EC-FC2639ECB53D}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Solidity.Contracts", "src\Solidity.Contracts\Solidity.Contracts.xproj", "{4A8777DE-C636-4D93-9C87-92C4889B486D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,11 +24,16 @@ Global
 		{10A991E8-A09F-4DF0-86EC-FC2639ECB53D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10A991E8-A09F-4DF0-86EC-FC2639ECB53D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10A991E8-A09F-4DF0-86EC-FC2639ECB53D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A8777DE-C636-4D93-9C87-92C4889B486D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A8777DE-C636-4D93-9C87-92C4889B486D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A8777DE-C636-4D93-9C87-92C4889B486D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A8777DE-C636-4D93-9C87-92C4889B486D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{10A991E8-A09F-4DF0-86EC-FC2639ECB53D} = {BBD5A083-8789-4568-8F82-FA5C26F6696C}
+		{4A8777DE-C636-4D93-9C87-92C4889B486D} = {BBD5A083-8789-4568-8F82-FA5C26F6696C}
 	EndGlobalSection
 EndGlobal

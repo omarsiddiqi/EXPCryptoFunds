@@ -1,5 +1,5 @@
---temp-output:C:\Users\omarsiddiqi\Source\Repos\EXPCryptoFunds\EXPCryptoFunds\src\Web\obj\Debug\netcoreapp1.0\
---out:C:\Users\omarsiddiqi\Source\Repos\EXPCryptoFunds\EXPCryptoFunds\src\Web\bin\Debug\netcoreapp1.0\Web.dll
+--temp-output:C:\Users\omarsiddiqi\Source\Repos\EXPCryptoFunds\src\Web\obj\Debug\netcoreapp1.0\
+--out:C:\Users\omarsiddiqi\Source\Repos\EXPCryptoFunds\src\Web\bin\Debug\netcoreapp1.0\Web.dll
 --define:DEBUG
 --define:TRACE
 --define:NETCOREAPP1_0
@@ -196,7 +196,7 @@
 --reference:C:\Users\omarsiddiqi\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll
 --reference:C:\Users\omarsiddiqi\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\omarsiddiqi\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll
---resource:"C:\Users\omarsiddiqi\Source\Repos\EXPCryptoFunds\EXPCryptoFunds\src\Web\obj\Debug\netcoreapp1.0\Webdotnet-compile.deps.json",Web.deps.json
-C:\Users\omarsiddiqi\Source\Repos\EXPCryptoFunds\EXPCryptoFunds\src\Web\Program.cs
-C:\Users\omarsiddiqi\Source\Repos\EXPCryptoFunds\EXPCryptoFunds\src\Web\Startup.cs
-C:\Users\omarsiddiqi\Source\Repos\EXPCryptoFunds\EXPCryptoFunds\src\Web\Controllers\HomeController.cs
+--resource:"C:\Users\omarsiddiqi\Source\Repos\EXPCryptoFunds\src\Web\obj\Debug\netcoreapp1.0\Webdotnet-compile.deps.json",Web.deps.json
+C:\Users\omarsiddiqi\Source\Repos\EXPCryptoFunds\src\Web\Program.cs
+C:\Users\omarsiddiqi\Source\Repos\EXPCryptoFunds\src\Web\Startup.cs
+C:\Users\omarsiddiqi\Source\Repos\EXPCryptoFunds\src\Web\Controllers\HomeController.cs
