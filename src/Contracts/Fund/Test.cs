@@ -63,9 +63,6 @@ namespace Solidity.Contracts.Fund
 
         }
 
-        //event Multiplied(int indexed a, address indexed sender, int result );
-
-
         public class MultipliedEvent
         {
             [Parameter("int", "a", 1, true)]

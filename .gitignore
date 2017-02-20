@@ -5,3 +5,7 @@
 /src/Solidity.Contracts/bin/Debug/netstandard1.6
 /src/Solidity.Contracts/obj/Debug/netstandard1.6
 /.vs
+/src/Web/bin/Debug/netcoreapp1.0
+/src/Web/obj/Debug/netcoreapp1.0
+/src/Contracts/bin/Debug
+/src/Contracts/obj/Debug

@@ -1,0 +1,25 @@
+﻿{
+  "version": "1.0.0-*",
+  "testRunner": "xunit",
+  "dependencies": {
+    "System.Threading.Thread": "4.3.0",
+    "xunit": "2.2.0-rc2-build3523",
+    "xunit.runner.console": "2.2.0-rc2-build3523",
+    "dotnet-test-xunit": "2.2.0-preview2-build1029",
+    "Nethereum.Web3": "1.0.6"
+  },
+  "runtimes": {
+    "win10-x64": {}
+  },
+  "frameworks": {
+    "netcoreapp1.0": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "type": "platform",
+          "version": "1.0.0"
+        }
+      },
+      "imports": "dnxcore50"
+    }    
+  }
+}
