@@ -3,6 +3,88 @@
   "version": 2,
   "targets": {
     ".NETCoreApp,Version=v1.0": {
+      "JavaScriptEngineSwitcher.ChakraCore/2.3.2": {
+        "type": "package",
+        "dependencies": {
+          "JavaScriptEngineSwitcher.Core": "2.2.0",
+          "Microsoft.Extensions.PlatformAbstractions": "1.0.0",
+          "System.Diagnostics.Tools": "4.0.1",
+          "System.Reflection.Extensions": "4.0.1",
+          "System.Reflection.TypeExtensions": "4.1.0",
+          "System.Threading.Thread": "4.0.0"
+        },
+        "compile": {
+          "lib/netstandard1.3/JavaScriptEngineSwitcher.ChakraCore.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/JavaScriptEngineSwitcher.ChakraCore.dll": {}
+        },
+        "resource": {
+          "lib/netstandard1.3/ru-ru/JavaScriptEngineSwitcher.ChakraCore.resources.dll": {
+            "locale": "ru-ru"
+          }
+        }
+      },
+      "JavaScriptEngineSwitcher.Core/2.2.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Collections": "4.0.11",
+          "System.ComponentModel.TypeConverter": "4.1.0",
+          "System.Globalization": "4.0.11",
+          "System.IO": "4.1.0",
+          "System.IO.FileSystem": "4.0.1",
+          "System.Linq": "4.1.0",
+          "System.Reflection": "4.1.0",
+          "System.Resources.ResourceManager": "4.0.1",
+          "System.Runtime.Extensions": "4.1.0",
+          "System.Runtime.InteropServices": "4.1.0",
+          "System.Runtime.InteropServices.RuntimeInformation": "4.0.0",
+          "System.Text.Encoding": "4.0.11",
+          "System.Text.RegularExpressions": "4.1.0",
+          "System.Threading": "4.0.11"
+        },
+        "compile": {
+          "lib/netstandard1.3/JavaScriptEngineSwitcher.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/JavaScriptEngineSwitcher.Core.dll": {}
+        },
+        "resource": {
+          "lib/netstandard1.3/ru-ru/JavaScriptEngineSwitcher.Core.resources.dll": {
+            "locale": "ru-ru"
+          }
+        }
+      },
+      "JavaScriptEngineSwitcher.Msie/2.3.2": {
+        "type": "package",
+        "dependencies": {
+          "JavaScriptEngineSwitcher.Core": "2.2.0",
+          "MsieJavaScriptEngine": "2.1.2"
+        },
+        "compile": {
+          "lib/netstandard1.3/JavaScriptEngineSwitcher.Msie.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/JavaScriptEngineSwitcher.Msie.dll": {}
+        }
+      },
+      "JSPool/2.0.1": {
+        "type": "package",
+        "dependencies": {
+          "JavaScriptEngineSwitcher.Core": "2.2.0",
+          "NETStandard.Library": "1.6.0",
+          "System.Diagnostics.TraceSource": "4.0.0",
+          "System.IO.FileSystem.Watcher": "4.0.0",
+          "System.Reflection.TypeExtensions": "4.1.0",
+          "System.Threading.Thread": "4.0.0"
+        },
+        "compile": {
+          "lib/netstandard1.3/JSPool.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/JSPool.dll": {}
+        }
+      },
       "Libuv/1.9.0": {
         "type": "package",
         "dependencies": {
@@ -1641,6 +1723,39 @@
           }
         }
       },
+      "MsieJavaScriptEngine/2.1.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Collections": "4.0.11",
+          "System.ComponentModel.TypeConverter": "4.1.0",
+          "System.Diagnostics.Tools": "4.0.1",
+          "System.Globalization": "4.0.11",
+          "System.IO": "4.1.0",
+          "System.IO.FileSystem": "4.0.1",
+          "System.Linq": "4.1.0",
+          "System.Reflection": "4.1.0",
+          "System.Reflection.Extensions": "4.0.1",
+          "System.Reflection.TypeExtensions": "4.1.0",
+          "System.Resources.ResourceManager": "4.0.1",
+          "System.Runtime.Extensions": "4.1.0",
+          "System.Runtime.InteropServices": "4.1.0",
+          "System.Text.Encoding": "4.0.11",
+          "System.Text.RegularExpressions": "4.1.0",
+          "System.Threading": "4.0.11",
+          "System.Threading.Thread": "4.0.0"
+        },
+        "compile": {
+          "lib/netstandard1.3/MsieJavaScriptEngine.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/MsieJavaScriptEngine.dll": {}
+        },
+        "resource": {
+          "lib/netstandard1.3/ru-ru/MsieJavaScriptEngine.resources.dll": {
+            "locale": "ru-ru"
+          }
+        }
+      },
       "NETStandard.Library/1.6.0": {
         "type": "package",
         "dependencies": {
@@ -1928,6 +2043,43 @@
         },
         "runtime": {
           "lib/netstandard1.0/NuGet.Versioning.dll": {}
+        }
+      },
+      "React.AspNet/3.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Mvc.Core": "1.0.0",
+          "Microsoft.AspNetCore.Mvc.ViewFeatures": "1.0.0",
+          "Microsoft.AspNetCore.StaticFiles": "1.0.0",
+          "Microsoft.Extensions.Caching.Abstractions": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection": "1.0.0",
+          "Microsoft.Extensions.FileProviders.Physical": "1.0.0",
+          "React.Core": "3.0.1"
+        },
+        "compile": {
+          "lib/netstandard1.6/React.AspNet.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.6/React.AspNet.dll": {}
+        }
+      },
+      "React.Core/3.0.1": {
+        "type": "package",
+        "dependencies": {
+          "JSPool": "2.0.1",
+          "JavaScriptEngineSwitcher.ChakraCore": "2.3.2",
+          "JavaScriptEngineSwitcher.Core": "2.2.0",
+          "JavaScriptEngineSwitcher.Msie": "2.3.2",
+          "Microsoft.Extensions.DependencyModel": "1.0.0",
+          "MsieJavaScriptEngine": "2.1.2",
+          "Newtonsoft.Json": "9.0.1",
+          "VroomJs": "1.2.3"
+        },
+        "compile": {
+          "lib/netstandard1.6/React.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.6/React.Core.dll": {}
         }
       },
       "runtime.native.System/4.0.0": {
@@ -2340,6 +2492,33 @@
         },
         "runtime": {
           "lib/portable-net45+win8+wp8+wpa81/_._": {}
+        }
+      },
+      "System.Diagnostics.TraceSource/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.0.1",
+          "System.Collections": "4.0.11",
+          "System.Diagnostics.Debug": "4.0.11",
+          "System.Globalization": "4.0.11",
+          "System.Resources.ResourceManager": "4.0.1",
+          "System.Runtime": "4.1.0",
+          "System.Runtime.Extensions": "4.1.0",
+          "System.Threading": "4.0.11",
+          "runtime.native.System": "4.0.0"
+        },
+        "compile": {
+          "ref/netstandard1.3/System.Diagnostics.TraceSource.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netstandard1.3/System.Diagnostics.TraceSource.dll": {
+            "assetType": "runtime",
+            "rid": "unix"
+          },
+          "runtimes/win/lib/netstandard1.3/System.Diagnostics.TraceSource.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
         }
       },
       "System.Diagnostics.Tracing/4.1.0": {
@@ -3872,10 +4051,93 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
+      },
+      "VroomJs/1.2.3": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.0",
+          "System.Dynamic.Runtime": "4.0.11",
+          "System.Reflection.TypeExtensions": "4.1.0"
+        },
+        "compile": {
+          "lib/netstandard1.6/VroomJs.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.6/VroomJs.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "JavaScriptEngineSwitcher.ChakraCore/2.3.2": {
+      "sha512": "B09+pwvPB57y6bBoIXqk96u/b+vCHn5cul1teBI+LpSGoVEnqEf7ijM5lUZAJSxGzg4SCm3/S7qPK4hxmsXcfw==",
+      "type": "package",
+      "path": "JavaScriptEngineSwitcher.ChakraCore/2.3.2",
+      "files": [
+        "JavaScriptEngineSwitcher.ChakraCore.2.3.2.nupkg.sha512",
+        "JavaScriptEngineSwitcher.ChakraCore.nuspec",
+        "chakra-samples-license.txt",
+        "jsrt-dotnet-license.txt",
+        "lib/net40-client/JavaScriptEngineSwitcher.ChakraCore.dll",
+        "lib/net40-client/ru-ru/JavaScriptEngineSwitcher.ChakraCore.resources.dll",
+        "lib/net45/JavaScriptEngineSwitcher.ChakraCore.dll",
+        "lib/net45/JavaScriptEngineSwitcher.ChakraCore.xml",
+        "lib/net45/ru-ru/JavaScriptEngineSwitcher.ChakraCore.resources.dll",
+        "lib/netstandard1.3/JavaScriptEngineSwitcher.ChakraCore.dll",
+        "lib/netstandard1.3/JavaScriptEngineSwitcher.ChakraCore.xml",
+        "lib/netstandard1.3/ru-ru/JavaScriptEngineSwitcher.ChakraCore.resources.dll",
+        "readme.txt"
+      ]
+    },
+    "JavaScriptEngineSwitcher.Core/2.2.0": {
+      "sha512": "ylm7gDYE8aA7f0CbGveSNCNIaVAnOqbNWLJXrddHh+JF7KMKssQfBhJB9Chz2vPM8g6RznnCU+nG0pSMoR9z4A==",
+      "type": "package",
+      "path": "JavaScriptEngineSwitcher.Core/2.2.0",
+      "files": [
+        "JavaScriptEngineSwitcher.Core.2.2.0.nupkg.sha512",
+        "JavaScriptEngineSwitcher.Core.nuspec",
+        "lib/net40-client/JavaScriptEngineSwitcher.Core.dll",
+        "lib/net40-client/ru-ru/JavaScriptEngineSwitcher.Core.resources.dll",
+        "lib/net45/JavaScriptEngineSwitcher.Core.dll",
+        "lib/net45/JavaScriptEngineSwitcher.Core.xml",
+        "lib/net45/ru-ru/JavaScriptEngineSwitcher.Core.resources.dll",
+        "lib/netstandard1.3/JavaScriptEngineSwitcher.Core.dll",
+        "lib/netstandard1.3/JavaScriptEngineSwitcher.Core.xml",
+        "lib/netstandard1.3/ru-ru/JavaScriptEngineSwitcher.Core.resources.dll",
+        "readme.txt"
+      ]
+    },
+    "JavaScriptEngineSwitcher.Msie/2.3.2": {
+      "sha512": "CxyU2Z3e7t1VaFlBgXjg1aI685pNACyb5jgiAxwVw+iB3FY0KLECqB5MmQWNuzGkZrqmzGsZJyvgi1t1Uo4umg==",
+      "type": "package",
+      "path": "JavaScriptEngineSwitcher.Msie/2.3.2",
+      "files": [
+        "JavaScriptEngineSwitcher.Msie.2.3.2.nupkg.sha512",
+        "JavaScriptEngineSwitcher.Msie.nuspec",
+        "lib/net40-client/JavaScriptEngineSwitcher.Msie.dll",
+        "lib/net45/JavaScriptEngineSwitcher.Msie.dll",
+        "lib/net45/JavaScriptEngineSwitcher.Msie.xml",
+        "lib/netstandard1.3/JavaScriptEngineSwitcher.Msie.dll",
+        "lib/netstandard1.3/JavaScriptEngineSwitcher.Msie.xml",
+        "msie-javascript-engine-license.txt",
+        "readme.txt"
+      ]
+    },
+    "JSPool/2.0.1": {
+      "sha512": "gtSD25qCEEp21z6F9PxZiJNyzMKlHqq9bOSZd9R8ETLZrm3WCCSOnIjS4x8mzXJvkEyhI2sJXZFyxl3oQla6QQ==",
+      "type": "package",
+      "path": "JSPool/2.0.1",
+      "files": [
+        "JSPool.2.0.1.nupkg.sha512",
+        "JSPool.nuspec",
+        "lib/net40-client/JSPool.dll",
+        "lib/net40-client/JSPool.xml",
+        "lib/net451/JSPool.dll",
+        "lib/net451/JSPool.xml",
+        "lib/netstandard1.3/JSPool.dll",
+        "lib/netstandard1.3/JSPool.xml"
+      ]
+    },
     "Libuv/1.9.0": {
       "sha512": "9Q7AaqtQhS8JDSIvRBt6ODSLWDBI4c8YxNxyCQemWebBFUtBbc6M5Vi5Gz1ZyIUlTW3rZK9bIr5gnVyv0z7a2Q==",
       "type": "package",
@@ -5201,6 +5463,29 @@
         "runtimes/win/lib/netstandard1.3/Microsoft.Win32.Registry.dll"
       ]
     },
+    "MsieJavaScriptEngine/2.1.2": {
+      "sha512": "ukCAt+MqxO4n8vvH2CjawdhimDt+zhKN8sVTNrh39c+3aNuPEP4qkjolBgET6CNm5CUc/t+QVBDZukcEFNulhA==",
+      "type": "package",
+      "path": "MsieJavaScriptEngine/2.1.2",
+      "files": [
+        "MsieJavaScriptEngine.2.1.2.nupkg.sha512",
+        "MsieJavaScriptEngine.nuspec",
+        "bundler-and-minifier-license.txt",
+        "chakra-host-license.txt",
+        "cross-browser-split-license.txt",
+        "jsrt-dotnet-license.txt",
+        "lib/net40-client/MsieJavaScriptEngine.dll",
+        "lib/net40-client/ru-ru/MsieJavaScriptEngine.resources.dll",
+        "lib/net45/MsieJavaScriptEngine.dll",
+        "lib/net45/MsieJavaScriptEngine.xml",
+        "lib/net45/ru-ru/MsieJavaScriptEngine.resources.dll",
+        "lib/netstandard1.3/MsieJavaScriptEngine.dll",
+        "lib/netstandard1.3/MsieJavaScriptEngine.xml",
+        "lib/netstandard1.3/ru-ru/MsieJavaScriptEngine.resources.dll",
+        "readme.txt",
+        "sass-and-coffee-license.txt"
+      ]
+    },
     "NETStandard.Library/1.6.0": {
       "sha512": "ypsCvIdCZ4IoYASJHt6tF2fMo7N30NLgV1EbmC+snO490OMl9FvVxmumw14rhReWU3j3g7BYudG6YCrchwHJlA==",
       "type": "package",
@@ -5418,6 +5703,32 @@
         "lib/net45/NuGet.Versioning.xml",
         "lib/netstandard1.0/NuGet.Versioning.dll",
         "lib/netstandard1.0/NuGet.Versioning.xml"
+      ]
+    },
+    "React.AspNet/3.0.1": {
+      "sha512": "4eLFAbUTTsiX/pWdpQNBpmK/c7jabroC4Ya+y43i7/hog+tmJEnvHWU60j0l1e/EvFZs3DA7pvN/FKAM/ARA8Q==",
+      "type": "package",
+      "path": "React.AspNet/3.0.1",
+      "files": [
+        "React.AspNet.3.0.1.nupkg.sha512",
+        "React.AspNet.nuspec",
+        "lib/net451/React.AspNet.dll",
+        "lib/net451/React.AspNet.xml",
+        "lib/netstandard1.6/React.AspNet.dll",
+        "lib/netstandard1.6/React.AspNet.xml"
+      ]
+    },
+    "React.Core/3.0.1": {
+      "sha512": "LBzhdv0YdhV/Rjd+EyHGfE2CGLwzNMI9t5g5Ur6By2PrBigGjWJpXT8oocFpeYXDI3U3teMKFRdHi9Wi+l7tkA==",
+      "type": "package",
+      "path": "React.Core/3.0.1",
+      "files": [
+        "React.Core.3.0.1.nupkg.sha512",
+        "React.Core.nuspec",
+        "lib/net40/React.Core.dll",
+        "lib/net40/React.Core.xml",
+        "lib/netstandard1.6/React.Core.dll",
+        "lib/netstandard1.6/React.Core.xml"
       ]
     },
     "runtime.native.System/4.0.0": {
@@ -6354,6 +6665,45 @@
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._"
+      ]
+    },
+    "System.Diagnostics.TraceSource/4.0.0": {
+      "sha512": "6WVCczFZKXwpWpzd/iJkYnsmWTSFFiU24Xx/YdHXBcu+nFI/ehTgeqdJQFbtRPzbrO3KtRNjvkhtj4t5/WwWsA==",
+      "type": "package",
+      "path": "System.Diagnostics.TraceSource/4.0.0",
+      "files": [
+        "System.Diagnostics.TraceSource.4.0.0.nupkg.sha512",
+        "System.Diagnostics.TraceSource.nuspec",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net46/System.Diagnostics.TraceSource.dll",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net46/System.Diagnostics.TraceSource.dll",
+        "ref/netstandard1.3/System.Diagnostics.TraceSource.dll",
+        "ref/netstandard1.3/System.Diagnostics.TraceSource.xml",
+        "ref/netstandard1.3/de/System.Diagnostics.TraceSource.xml",
+        "ref/netstandard1.3/es/System.Diagnostics.TraceSource.xml",
+        "ref/netstandard1.3/fr/System.Diagnostics.TraceSource.xml",
+        "ref/netstandard1.3/it/System.Diagnostics.TraceSource.xml",
+        "ref/netstandard1.3/ja/System.Diagnostics.TraceSource.xml",
+        "ref/netstandard1.3/ko/System.Diagnostics.TraceSource.xml",
+        "ref/netstandard1.3/ru/System.Diagnostics.TraceSource.xml",
+        "ref/netstandard1.3/zh-hans/System.Diagnostics.TraceSource.xml",
+        "ref/netstandard1.3/zh-hant/System.Diagnostics.TraceSource.xml",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/unix/lib/netstandard1.3/System.Diagnostics.TraceSource.dll",
+        "runtimes/win/lib/net46/System.Diagnostics.TraceSource.dll",
+        "runtimes/win/lib/netstandard1.3/System.Diagnostics.TraceSource.dll"
       ]
     },
     "System.Diagnostics.Tracing/4.1.0": {
@@ -9984,6 +10334,19 @@
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._"
       ]
+    },
+    "VroomJs/1.2.3": {
+      "sha512": "UeothAnvWK9f2LqPO1Nj5YRkuoOHBqjUnBtLm6yogiE9DNhDMqO/ipsI3qGe7dbeORAcbbCxRrnaqdlTZaT59A==",
+      "type": "package",
+      "path": "VroomJs/1.2.3",
+      "files": [
+        "VroomJs.1.2.3.nupkg.sha512",
+        "VroomJs.nuspec",
+        "lib/net40/VroomJs.dll",
+        "lib/net45/VroomJs.dll",
+        "lib/net45/VroomJs.xml",
+        "lib/netstandard1.6/VroomJs.dll"
+      ]
     }
   },
   "projectFileDependencyGroups": {
@@ -10003,7 +10366,8 @@
       "Microsoft.Extensions.Logging.Debug >= 1.0.0",
       "Microsoft.Extensions.Options.ConfigurationExtensions >= 1.0.0",
       "Microsoft.NETCore.App >= 1.0.1",
-      "Microsoft.VisualStudio.Web.BrowserLink.Loader >= 14.0.0"
+      "Microsoft.VisualStudio.Web.BrowserLink.Loader >= 14.0.0",
+      "React.AspNet >= 3.0.1"
     ],
     ".NETCoreApp,Version=v1.0": []
   },

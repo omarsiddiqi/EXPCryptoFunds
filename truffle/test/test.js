@@ -3,6 +3,7 @@ var ProofOfExistence1 = artifacts.require("./ProofOfExistence1.sol");
 module.exports = function(callback){
     var _instance = null;
     var _randomString = "Random String " + Math.random();
+    web3.personal.unlockAccount(web3.eth.accounts[0], "password");
     ProofOfExistence1.new().then(function(instance){
         _instance = instance;
         console.log("notarize");
